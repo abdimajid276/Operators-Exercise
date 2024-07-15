@@ -30,15 +30,16 @@ namespace OperatorExercise
             int remainder = 17 % 4;
 
 
-            //Console.WriteLine($@"{17}/{4} is {quotient} remainder {remainder}.");
+            Console.WriteLine($@"{17}/{4} is {quotient} remainder {remainder}.");
             
-            //PrintAreaOfCircle();
+            PrintAreaOfCircle();
             
-            // var is implicit type inferrence (more on this later)
-            var i = 4;
+            //var is implicit type inferrence (more on this later)
+            var i = 2;
             var j = 7;
             var k = ++j * j++;
 
+                
              Console.WriteLine(k); // ouputs ?
 
 
